@@ -1,0 +1,116 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://mo/Video/streamvideo-8.ogv" type="VideoStream" id=1]
+[ext_resource path="res://mo/Shape/shape1.svg" type="Texture" id=2]
+[ext_resource path="res://mo/Shape/shape14.svg" type="Texture" id=3]
+[ext_resource path="res://mo/Font/ArialNova.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://mo/Video/streamvideo-11.ogv" type="VideoStream" id=5]
+[ext_resource path="res://mo/Video/streamvideo-7.ogv" type="VideoStream" id=6]
+[ext_resource path="res://VideoPlayer.gd" type="Script" id=7]
+[ext_resource path="res://mo/Shape/shape6.svg" type="Texture" id=8]
+[ext_resource path="res://mo/Image/image 4.jpg" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="TopBox" type="Node2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="TopBox"]
+position = Vector2( 400.046, 65 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="TopBox"]
+margin_left = 160.0
+margin_top = 55.0
+margin_right = 658.0
+margin_bottom = 85.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Šis trimatės animacijos objektas padeda geriau suprasti dujų savybes. "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VideoUI" type="Control" parent="."]
+margin_left = 1.0
+margin_top = 2.0
+margin_right = 799.0
+margin_bottom = 554.0
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Video1" type="VideoPlayer" parent="VideoUI"]
+visible = false
+margin_left = 161.402
+margin_top = 120.816
+margin_right = 641.402
+margin_bottom = 504.816
+stream = ExtResource( 6 )
+expand = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Video2" type="VideoPlayer" parent="VideoUI"]
+visible = false
+margin_left = 161.402
+margin_top = 120.816
+margin_right = 641.402
+margin_bottom = 504.816
+stream = ExtResource( 1 )
+expand = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Video2Button" type="Button" parent="VideoUI/Video2"]
+margin_right = 478.0
+margin_bottom = 384.0
+flat = true
+
+[node name="Video3" type="VideoPlayer" parent="VideoUI"]
+visible = false
+margin_left = 161.402
+margin_top = 120.816
+margin_right = 641.402
+margin_bottom = 504.816
+stream = ExtResource( 5 )
+expand = false
+
+[node name="Button" type="Button" parent="VideoUI/Video3"]
+margin_right = 479.0
+margin_bottom = 384.0
+flat = true
+
+[node name="StartImage" type="Button" parent="VideoUI"]
+margin_left = 162.0
+margin_top = 123.0
+margin_right = 642.0
+margin_bottom = 502.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="VideoUI/StartImage"]
+position = Vector2( 239.344, 191.002 )
+texture = ExtResource( 9 )
+
+[node name="VideoFrame" type="Sprite" parent="VideoUI"]
+position = Vector2( 401.138, 313.428 )
+texture = ExtResource( 8 )
+
+[connection signal="finished" from="VideoUI/Video1" to="VideoUI" method="_on_Video1_finished"]
+[connection signal="finished" from="VideoUI/Video2" to="VideoUI" method="_on_Video2_finished"]
+[connection signal="pressed" from="VideoUI/Video2/Video2Button" to="VideoUI" method="_on_Video2Button_pressed"]
+[connection signal="finished" from="VideoUI/Video3" to="VideoUI" method="_on_Video3_finished"]
+[connection signal="pressed" from="VideoUI/Video3/Button" to="VideoUI" method="_on_Button_pressed"]
+[connection signal="pressed" from="VideoUI/StartImage" to="VideoUI" method="_on_StartImage_pressed"]

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="15px" height="156px"
+xml:space="preserve">
+<g id="PathID_204" transform="matrix(1, 0, 0, 1, 335, 116.95)">
+<pattern 
+id="PatternID_106" patternUnits="userSpaceOnUse" overflow="visible" width="14" height="21" viewBox="0 0 14 21" patternTransform="matrix(1, 0, 0, 1, -335, -116.95)"
+>
+<image 
+width="14" height="21"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAYAAAB2Wd+JAAABIUlEQVR4nMXQr0tDURjG8e+d+4FiEpElwWIziGldUEQcG+61iQxBg5g1mhRsWxU1GR6H7MoQBYNJcCD6H5iEhWUvE/VaNpS5uXuLvukc3vdzznMO/FtJ5YUw85GvpVOUykVJfSEhQGQD4hVJgyEhQGQWEreSRkPB67ELwJmAxJ10lgoMz8dL7Kd2ACcJ0RvJXQkYFR6S92zO5AHi4BxJ7m4gCFAfqLM6v9TcOVuSeyqpvycEeIl5rZsBZxFimUBwsjZF4eoQwIOPnFnmpNWLdkP5x3Wmn+YA/xnes2bZ6vd+R1i4PGDYGwH8KjTSZlZrn/kBm9EAvwSNZTPzOh3eJaq/Z5be7vaMTvAV/DWz9PFvqB3W4C3X/gk9S9JQKPDn9QlOUlXAiNLAUQAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_106) " d="M-335 -116.95L-321 -116.95L-321 -95.95L-335 -95.95L-335 -116.95" />
+</g>
+<g id="PathID_205" transform="matrix(1, 0, 0, 1, 335, 116.95)">
+<pattern 
+id="PatternID_107" patternUnits="userSpaceOnUse" overflow="visible" width="14" height="21" viewBox="0 0 14 21" patternTransform="matrix(1, 0, 0, 1, -334.75, -92)"
+>
+<image 
+width="14" height="21"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAYAAAB2Wd+JAAABIUlEQVR4nMXQr0tDURjG8e+d+4FiEpElwWIziGldUEQcG+61iQxBg5g1mhRsWxU1GR6H7MoQBYNJcCD6H5iEhWUvE/VaNpS5uXuLvukc3vdzznMO/FtJ5YUw85GvpVOUykVJfSEhQGQD4hVJgyEhQGQWEreSRkPB67ELwJmAxJ10lgoMz8dL7Kd2ACcJ0RvJXQkYFR6S92zO5AHi4BxJ7m4gCFAfqLM6v9TcOVuSeyqpvycEeIl5rZsBZxFimUBwsjZF4eoQwIOPnFnmpNWLdkP5x3Wmn+YA/xnes2bZ6vd+R1i4PGDYGwH8KjTSZlZrn/kBm9EAvwSNZTPzOh3eJaq/Z5be7vaMTvAV/DWz9PFvqB3W4C3X/gk9S9JQKPDn9QlOUlXAiNLAUQAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_107) " d="M-334.75 -92L-320.75 -92L-320.75 -71L-334.75 -71L-334.75 -92" />
+</g>
+<g id="PathID_206" transform="matrix(1, 0, 0, 1, 335, 116.95)">
+<pattern 
+id="PatternID_108" patternUnits="userSpaceOnUse" overflow="visible" width="14" height="21" viewBox="0 0 14 21" patternTransform="matrix(1, 0, 0, 1, -334.75, -64)"
+>
+<image 
+width="14" height="21"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAYAAAB2Wd+JAAABIUlEQVR4nMXQr0tDURjG8e+d+4FiEpElwWIziGldUEQcG+61iQxBg5g1mhRsWxU1GR6H7MoQBYNJcCD6H5iEhWUvE/VaNpS5uXuLvukc3vdzznMO/FtJ5YUw85GvpVOUykVJfSEhQGQD4hVJgyEhQGQWEreSRkPB67ELwJmAxJ10lgoMz8dL7Kd2ACcJ0RvJXQkYFR6S92zO5AHi4BxJ7m4gCFAfqLM6v9TcOVuSeyqpvycEeIl5rZsBZxFimUBwsjZF4eoQwIOPnFnmpNWLdkP5x3Wmn+YA/xnes2bZ6vd+R1i4PGDYGwH8KjTSZlZrn/kBm9EAvwSNZTPzOh3eJaq/Z5be7vaMTvAV/DWz9PFvqB3W4C3X/gk9S9JQKPDn9QlOUlXAiNLAUQAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_108) " d="M-334.75 -64L-320.75 -64L-320.75 -43L-334.75 -43L-334.75 -64" />
+</g>
+<g id="PathID_207" transform="matrix(1, 0, 0, 1, 335, 116.95)">
+<pattern 
+id="PatternID_109" patternUnits="userSpaceOnUse" overflow="visible" width="14" height="21" viewBox="0 0 14 21" patternTransform="matrix(1, 0, 0, 1, -334.5, -38)"
+>
+<image 
+width="14" height="21"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAYAAAB2Wd+JAAABIUlEQVR4nMXQr0tDURjG8e+d+4FiEpElwWIziGldUEQcG+61iQxBg5g1mhRsWxU1GR6H7MoQBYNJcCD6H5iEhWUvE/VaNpS5uXuLvukc3vdzznMO/FtJ5YUw85GvpVOUykVJfSEhQGQD4hVJgyEhQGQWEreSRkPB67ELwJmAxJ10lgoMz8dL7Kd2ACcJ0RvJXQkYFR6S92zO5AHi4BxJ7m4gCFAfqLM6v9TcOVuSeyqpvycEeIl5rZsBZxFimUBwsjZF4eoQwIOPnFnmpNWLdkP5x3Wmn+YA/xnes2bZ6vd+R1i4PGDYGwH8KjTSZlZrn/kBm9EAvwSNZTPzOh3eJaq/Z5be7vaMTvAV/DWz9PFvqB3W4C3X/gk9S9JQKPDn9QlOUlXAiNLAUQAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_109) " d="M-334.5 -38L-320.5 -38L-320.5 -17L-334.5 -17L-334.5 -38" />
+</g>
+<g id="PathID_208" transform="matrix(1, 0, 0, 1, 335, 116.95)">
+<pattern 
+id="PatternID_110" patternUnits="userSpaceOnUse" overflow="visible" width="14" height="21" viewBox="0 0 14 21" patternTransform="matrix(1, 0, 0, 1, -335, -9.95)"
+>
+<image 
+width="14" height="21"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAYAAAB2Wd+JAAABIUlEQVR4nMXQr0tDURjG8e+d+4FiEpElwWIziGldUEQcG+61iQxBg5g1mhRsWxU1GR6H7MoQBYNJcCD6H5iEhWUvE/VaNpS5uXuLvukc3vdzznMO/FtJ5YUw85GvpVOUykVJfSEhQGQD4hVJgyEhQGQWEreSRkPB67ELwJmAxJ10lgoMz8dL7Kd2ACcJ0RvJXQkYFR6S92zO5AHi4BxJ7m4gCFAfqLM6v9TcOVuSeyqpvycEeIl5rZsBZxFimUBwsjZF4eoQwIOPnFnmpNWLdkP5x3Wmn+YA/xnes2bZ6vd+R1i4PGDYGwH8KjTSZlZrn/kBm9EAvwSNZTPzOh3eJaq/Z5be7vaMTvAV/DWz9PFvqB3W4C3X/gk9S9JQKPDn9QlOUlXAiNLAUQAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_110) " d="M-321 -9.95L-321 11.05L-335 11.05L-335 -9.95L-321 -9.95" />
+</g>
+<g id="PathID_209" transform="matrix(1, 0, 0, 1, 335, 116.95)">
+<pattern 
+id="PatternID_111" patternUnits="userSpaceOnUse" overflow="visible" width="14" height="21" viewBox="0 0 14 21" patternTransform="matrix(1, 0, 0, 1, -335, 18.05)"
+>
+<image 
+width="14" height="21"
+xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAYAAAB2Wd+JAAABIUlEQVR4nMXQr0tDURjG8e+d+4FiEpElwWIziGldUEQcG+61iQxBg5g1mhRsWxU1GR6H7MoQBYNJcCD6H5iEhWUvE/VaNpS5uXuLvukc3vdzznMO/FtJ5YUw85GvpVOUykVJfSEhQGQD4hVJgyEhQGQWEreSRkPB67ELwJmAxJ10lgoMz8dL7Kd2ACcJ0RvJXQkYFR6S92zO5AHi4BxJ7m4gCFAfqLM6v9TcOVuSeyqpvycEeIl5rZsBZxFimUBwsjZF4eoQwIOPnFnmpNWLdkP5x3Wmn+YA/xnes2bZ6vd+R1i4PGDYGwH8KjTSZlZrn/kBm9EAvwSNZTPzOh3eJaq/Z5be7vaMTvAV/DWz9PFvqB3W4C3X/gk9S9JQKPDn9QlOUlXAiNLAUQAAAABJRU5ErkJggj=="
+>
+</image>
+</pattern>
+<path style="fill:url(#PatternID_111) " d="M-321 39.05L-335 39.05L-335 18.05L-321 18.05L-321 39.05" />
+</g>
+</svg>

@@ -1,0 +1,55 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://mo/Shape/shape18.svg" type="Texture" id=1]
+[ext_resource path="res://mo/Image/image 5.png" type="Texture" id=2]
+[ext_resource path="res://mo/Image/image 49.png" type="Texture" id=3]
+[ext_resource path="res://mo/Image/image 7.png" type="Texture" id=4]
+[ext_resource path="res://mo/Image/image 6.png" type="Texture" id=5]
+[ext_resource path="res://Button.gd" type="Script" id=6]
+[ext_resource path="res://mo/Font/ArialNova.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 149, 26 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 7 )
+
+[node name="WallButton" type="Button"]
+margin_left = 40.0
+margin_top = 140.0
+margin_right = 217.0
+margin_bottom = 160.0
+custom_styles/hover = SubResource( 1 )
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0.65098, 0.65098, 0.65098, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+text = "  Sienelė"
+icon = ExtResource( 3 )
+flat = true
+align = 0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Arrow1" type="Sprite" parent="."]
+visible = false
+position = Vector2( 561.778, 257.351 )
+texture = ExtResource( 2 )
+
+[node name="Arrow2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 286.458, 234.504 )
+texture = ExtResource( 4 )
+
+[node name="Arrow3" type="Sprite" parent="."]
+visible = false
+position = Vector2( 295.336, 27.6135 )
+texture = ExtResource( 5 )
