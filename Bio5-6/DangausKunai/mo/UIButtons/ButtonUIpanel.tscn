@@ -1,0 +1,88 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://mo/UIButtons/Rdefault.png" type="Texture" id=1]
+[ext_resource path="res://mo/UIButtons/Ldisabled.png" type="Texture" id=2]
+[ext_resource path="res://mo/UIButtons/RestartHover.png" type="Texture" id=3]
+[ext_resource path="res://mo/UIButtons/Rhover.png" type="Texture" id=4]
+[ext_resource path="res://mo/UIButtons/RestartDefault.png" type="Texture" id=5]
+[ext_resource path="res://mo/UIButtons/Rdisabled.png" type="Texture" id=6]
+[ext_resource path="res://mo/UIButtons/Ldefault.png" type="Texture" id=7]
+[ext_resource path="res://mo/UIButtons/Lhover.png" type="Texture" id=8]
+[ext_resource path="res://mo/Font/ArialNova.ttf" type="DynamicFontData" id=9]
+[ext_resource path="res://mo/UIButtons/ButtonUIpanel.gd" type="Script" id=10]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.913725, 0.921569, 0.945098, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+outline_color = Color( 0.247059, 0.396078, 0.54902, 1 )
+font_data = ExtResource( 9 )
+
+[node name="ButtonUIpanel" type="Panel"]
+margin_top = 498.0
+margin_right = 240.0
+margin_bottom = 553.0
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Rightbutton" type="TextureButton" parent="."]
+margin_left = 120.0
+margin_top = 8.0
+margin_right = 160.0
+margin_bottom = 48.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RestartButton" type="TextureButton" parent="."]
+margin_left = 80.0
+margin_top = 15.0
+margin_right = 105.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 3 )
+texture_hover = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LeftButton" type="TextureButton" parent="."]
+margin_left = 20.0
+margin_top = 8.0
+margin_right = 60.0
+margin_bottom = 48.0
+rect_clip_content = true
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 8 )
+texture_disabled = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_bottom = 0.806
+margin_left = 180.0
+margin_top = 15.0
+margin_right = 220.0
+margin_bottom = -7.33
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.121569, 0.298039, 0.47451, 1 )
+text = "1 / 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Rightbutton" to="." method="_on_Rightbutton_pressed"]
+[connection signal="pressed" from="RestartButton" to="." method="_on_RestartButton_pressed"]
+[connection signal="pressed" from="LeftButton" to="." method="_on_LeftButton_pressed"]

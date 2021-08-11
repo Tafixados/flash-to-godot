@@ -14,6 +14,11 @@ config/name="Dangaus Kunai"
 run/main_scene="res://DangausKunai.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=799
+window/size/height=554
+
 [physics]
 
 common/enable_pause_aware_picking=true

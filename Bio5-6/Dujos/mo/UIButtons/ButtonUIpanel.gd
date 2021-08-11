@@ -11,6 +11,9 @@ signal scene_changed(scene)
 
 func _ready():
 	set_label()
+	var font = DynamicFont.new()
+	font.font_data = load("res://mo/Font/35_HelveticaLT.ttf")
+	label.set("custom_fonts/font", font)
 
 func update():
 	set_label()
